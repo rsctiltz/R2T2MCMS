@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "MagicalCreature.h"
 
-@interface DescriptionViewController : UIViewController
-@property MagicalCreature *creature;
+@interface SecondViewController : UIViewController
+@property MagicalCreature *magicalCreatureToShow;
+
+@property NSInteger arrayPosition;
+
+
 
 @end

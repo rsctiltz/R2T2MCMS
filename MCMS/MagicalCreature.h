@@ -12,6 +12,6 @@
 @property NSString *name;
 @property NSString *description;
 
-- (MagicalCreature *) initWithFullName: (NSString *)name description:(NSString *)description;
-
+-(MagicalCreature *) initWithName: (NSString *) name;
+-(MagicalCreature *) initWithName: (NSString *) name andDescription: (NSString *) description;
 @end

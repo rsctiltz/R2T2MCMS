@@ -9,7 +9,14 @@
 #import "MagicalCreature.h"
 
 @implementation MagicalCreature
--(MagicalCreature *) initWithFullName:(NSString *)name description:(NSString *)description
+
+-(MagicalCreature *) initWithName: (NSString *) name
+{
+    self.name = name;
+    return self;
+}
+
+-(MagicalCreature *) initWithName: (NSString *) name andDescription: (NSString *) description
 {
     self.name = name;
     self.description = description;

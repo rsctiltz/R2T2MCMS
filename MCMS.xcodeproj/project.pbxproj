@@ -22,7 +22,7 @@
 		AE58188C192BD31D0097AB49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE58188A192BD31D0097AB49 /* InfoPlist.strings */; };
 		AE58188E192BD31D0097AB49 /* MCMSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE58188D192BD31D0097AB49 /* MCMSTests.m */; };
 		AE58189D192BD5180097AB49 /* MagicalCreature.m in Sources */ = {isa = PBXBuildFile; fileRef = AE58189C192BD5180097AB49 /* MagicalCreature.m */; };
-		D0359DFE192C116400ABD1CF /* DescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0359DFD192C116400ABD1CF /* DescriptionViewController.m */; };
+		D0359DFE192C116400ABD1CF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0359DFD192C116400ABD1CF /* SecondViewController.m */; };
 		D0B3A434192C2E7C00D42B0F /* CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B3A433192C2E7C00D42B0F /* CheckMate.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,8 +58,8 @@
 		AE58188D192BD31D0097AB49 /* MCMSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCMSTests.m; sourceTree = "<group>"; };
 		AE58189B192BD5180097AB49 /* MagicalCreature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalCreature.h; sourceTree = "<group>"; };
 		AE58189C192BD5180097AB49 /* MagicalCreature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicalCreature.m; sourceTree = "<group>"; };
-		D0359DFC192C116400ABD1CF /* DescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptionViewController.h; sourceTree = "<group>"; };
-		D0359DFD192C116400ABD1CF /* DescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescriptionViewController.m; sourceTree = "<group>"; };
+		D0359DFC192C116400ABD1CF /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D0359DFD192C116400ABD1CF /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		D0B3A433192C2E7C00D42B0F /* CheckMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CheckMate.framework; path = ../../../../Downloads/CheckMate.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,8 +125,8 @@
 				AE581871192BD31D0097AB49 /* AppDelegate.h */,
 				AE581872192BD31D0097AB49 /* AppDelegate.m */,
 				AE581874192BD31D0097AB49 /* Main.storyboard */,
-				D0359DFC192C116400ABD1CF /* DescriptionViewController.h */,
-				D0359DFD192C116400ABD1CF /* DescriptionViewController.m */,
+				D0359DFC192C116400ABD1CF /* SecondViewController.h */,
+				D0359DFD192C116400ABD1CF /* SecondViewController.m */,
 				AE58189B192BD5180097AB49 /* MagicalCreature.h */,
 				AE58189C192BD5180097AB49 /* MagicalCreature.m */,
 				AE581877192BD31D0097AB49 /* ViewController.h */,
@@ -263,7 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0359DFE192C116400ABD1CF /* DescriptionViewController.m in Sources */,
+				D0359DFE192C116400ABD1CF /* SecondViewController.m in Sources */,
 				AE581879192BD31D0097AB49 /* ViewController.m in Sources */,
 				AE58189D192BD5180097AB49 /* MagicalCreature.m in Sources */,
 				AE581873192BD31D0097AB49 /* AppDelegate.m in Sources */,
