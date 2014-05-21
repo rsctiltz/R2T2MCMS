@@ -22,7 +22,8 @@
 		AE58188C192BD31D0097AB49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE58188A192BD31D0097AB49 /* InfoPlist.strings */; };
 		AE58188E192BD31D0097AB49 /* MCMSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE58188D192BD31D0097AB49 /* MCMSTests.m */; };
 		AE58189D192BD5180097AB49 /* MagicalCreature.m in Sources */ = {isa = PBXBuildFile; fileRef = AE58189C192BD5180097AB49 /* MagicalCreature.m */; };
-		AEE49087192BF872001A42C3 /* CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE49086192BF872001A42C3 /* CheckMate.framework */; };
+		D0359DFE192C116400ABD1CF /* DescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0359DFD192C116400ABD1CF /* DescriptionViewController.m */; };
+		D0B3A434192C2E7C00D42B0F /* CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0B3A433192C2E7C00D42B0F /* CheckMate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +58,9 @@
 		AE58188D192BD31D0097AB49 /* MCMSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCMSTests.m; sourceTree = "<group>"; };
 		AE58189B192BD5180097AB49 /* MagicalCreature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalCreature.h; sourceTree = "<group>"; };
 		AE58189C192BD5180097AB49 /* MagicalCreature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicalCreature.m; sourceTree = "<group>"; };
-		AEE49086192BF872001A42C3 /* CheckMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CheckMate.framework; path = ../CheckMate.framework; sourceTree = "<group>"; };
+		D0359DFC192C116400ABD1CF /* DescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptionViewController.h; sourceTree = "<group>"; };
+		D0359DFD192C116400ABD1CF /* DescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescriptionViewController.m; sourceTree = "<group>"; };
+		D0B3A433192C2E7C00D42B0F /* CheckMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CheckMate.framework; path = ../../../../Downloads/CheckMate.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEE49087192BF872001A42C3 /* CheckMate.framework in Frameworks */,
+				D0B3A434192C2E7C00D42B0F /* CheckMate.framework in Frameworks */,
 				AE581865192BD31D0097AB49 /* CoreGraphics.framework in Frameworks */,
 				AE581867192BD31D0097AB49 /* UIKit.framework in Frameworks */,
 				AE581863192BD31D0097AB49 /* Foundation.framework in Frameworks */,
@@ -107,7 +110,7 @@
 		AE581861192BD31D0097AB49 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AEE49086192BF872001A42C3 /* CheckMate.framework */,
+				D0B3A433192C2E7C00D42B0F /* CheckMate.framework */,
 				AE581862192BD31D0097AB49 /* Foundation.framework */,
 				AE581864192BD31D0097AB49 /* CoreGraphics.framework */,
 				AE581866192BD31D0097AB49 /* UIKit.framework */,
@@ -122,6 +125,8 @@
 				AE581871192BD31D0097AB49 /* AppDelegate.h */,
 				AE581872192BD31D0097AB49 /* AppDelegate.m */,
 				AE581874192BD31D0097AB49 /* Main.storyboard */,
+				D0359DFC192C116400ABD1CF /* DescriptionViewController.h */,
+				D0359DFD192C116400ABD1CF /* DescriptionViewController.m */,
 				AE58189B192BD5180097AB49 /* MagicalCreature.h */,
 				AE58189C192BD5180097AB49 /* MagicalCreature.m */,
 				AE581877192BD31D0097AB49 /* ViewController.h */,
@@ -258,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0359DFE192C116400ABD1CF /* DescriptionViewController.m in Sources */,
 				AE581879192BD31D0097AB49 /* ViewController.m in Sources */,
 				AE58189D192BD5180097AB49 /* MagicalCreature.m in Sources */,
 				AE581873192BD31D0097AB49 /* AppDelegate.m in Sources */,
@@ -396,6 +402,7 @@
 					makers,
 					/Users/teacher/Desktop/mobile,
 					makers,
+					/Users/R2T2/Downloads,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MCMS/MCMS-Prefix.pch";
@@ -420,6 +427,7 @@
 					makers,
 					/Users/teacher/Desktop/mobile,
 					makers,
+					/Users/R2T2/Downloads,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MCMS/MCMS-Prefix.pch";

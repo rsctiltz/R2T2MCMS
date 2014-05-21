@@ -8,22 +8,30 @@
 
 #import "ViewController.h"
 #import "MagicalCreature.h"
+#import "DescriptionViewController.h"
+
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
 @property (strong, nonatomic) IBOutlet UITableView *creaturesTableView;
 @property NSString *addRowString;
+@property NSMutableArray *textInputArray;
 @property (strong, nonatomic) IBOutlet UITextField *myTextField;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad
+
+
+
+
+
 {
     [super viewDidLoad];
 
-    MagicalCreature *creature1 = [[MagicalCreature alloc]initWithFullName:@"Swamp Thing" description:@"Mossy"];
-    MagicalCreature *creature2 = [[MagicalCreature alloc]initWithFullName:@"Bigfoot" description:@"King of the Forest"];
-    MagicalCreature *creature3 = [[MagicalCreature alloc]initWithFullName:@"Loch Ness Monster" description:@"Water Myth"];
+    MagicalCreature *creature1 = [[MagicalCreature alloc]initWithFullName:@"Swamp Thing" description:@"Muck-encrusted Mockery of a Man"];
+    MagicalCreature *creature2 = [[MagicalCreature alloc]initWithFullName:@"Bigfoot" description:@"Elusive Sasquatch"];
+    MagicalCreature *creature3 = [[MagicalCreature alloc]initWithFullName:@"Loch Ness Monster" description:@"Nessie the Serpent of the Sea"];
 
     self.creatures = [NSMutableArray arrayWithObjects:creature1, creature2, creature3, nil];
 
@@ -40,11 +48,15 @@
 
 -(UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    MagicalCreature *creature = [self.creatures objectAtIndex:indexPath.row];
+    MagicalCreature *creatures = [self.creatures objectAtIndex:indexPath.row];
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MyCellID"];
-    cell.textLabel.text = creature.name;
-    cell.detailTextLabel.text = creature.description;
+    cell.textLabel.text = creatures.name;
+    cell.detailTextLabel.text = creatures.description;
     return cell;
+    //cell.textLabel.text = [self.textInputArray objectAtIndex:indexPath.row];
+    //cell.textLabel.textColor = [UIColor blackColor];
+
+
 }
 
 - (IBAction)myCreatureAddButton:(id)sender
@@ -68,7 +80,16 @@
             [self.creaturesTableView reloadData];
         }
 
-
     }
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(UILabel *)sender
+{
+    NSIndexPath *selectedIndexPath = self.creaturesTableView.indexPathForSelectedRow;
+    MagicalCreature *myCreatureDescription = [self.creatures objectAtIndex:selectedIndexPath.row];
+    DescriptionViewController *descriptionViewController = segue.destinationViewController;
+    descriptionViewController.creature = myCreatureDescription;
+
+}
+
 
 @end

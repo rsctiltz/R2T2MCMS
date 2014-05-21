@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9431EA25-D981-4BE1-8925-FC4F8975B518</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MCMS</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>ED2C80C7-D1C5-45EF-A1C1-8A5316B5145F</key>
+		<string>https://github.com/rsctiltz/R2T2MCMS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MCMS.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>ED2C80C7-D1C5-45EF-A1C1-8A5316B5145F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rsctiltz/R2T2MCMS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>ED2C80C7-D1C5-45EF-A1C1-8A5316B5145F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ED2C80C7-D1C5-45EF-A1C1-8A5316B5145F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>R2T2MCMS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
